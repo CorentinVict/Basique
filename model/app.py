@@ -18,7 +18,7 @@ class app(tk.Tk):
         self.title("Game")
         self.geometry("800x600")
         self.resizable(False, False)
-        self.configure(background='grey')
+        self.configure(background='White')
 
         # Création et positionnement du bouton Quitter
         quit_button = tk.Button(self, text="Quitter", command=self.quit, bg="White")  
